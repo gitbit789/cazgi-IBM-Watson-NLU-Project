@@ -1,7 +1,7 @@
 ---
 applications:
 - path: .
-  name: alessandro-d9d-sentiment-analyzer
+  name: Natural Language Understanding-va
   buildpack: sdk-for-nodejs
   memory: 128M
   instances: 1
