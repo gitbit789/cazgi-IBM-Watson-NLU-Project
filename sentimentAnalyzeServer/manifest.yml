@@ -1,8 +1,8 @@
 ---
 applications:
 - path: .
-  name: Natural Language Understanding-va
-  buildpack: sdk-for-nodejs
-  memory: 128M
+  name: shubhammahale19-sentiment-analyzer #change to be unique in IBM Cloud
+  buildpack: nodejs_buildpack
+  memory: 256M
   instances: 1
   random-route: true
