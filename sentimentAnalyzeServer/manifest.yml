@@ -1,8 +1,8 @@
 ---
 applications:
 - path: .
-  name: gb789-sa #change to be unique in IBM Cloud
-  buildpack: nodejs_buildpack
-  memory: 256M
+  name: gb789-sentiment-analyzer
+  buildpack: sdk-for-nodejs
+  memory: 128M
   instances: 1
   random-route: true
